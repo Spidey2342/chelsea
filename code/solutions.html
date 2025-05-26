@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Effects of Climate Change in Ghana</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/ghana-flag.png" alt="Ghana Climate Change Logo">
+            <h1>Climate Change in Ghana</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="causes.html">Causes</a></li>
+                <li class="active"><a href="effects.html">Effects</a></li>
+                <li><a href="solutions.html">Solutions</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button class="cta-button" onclick="location.href='solutions.html#take-action'">Take Action</button></li>
+            </ul>
+        </nav>
+        <div class="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <h2>Effects of Climate Change in Ghana</h2>
+        <p>How climate change is impacting different sectors and regions in Ghana</p>
+    </section>
+
+    <section class="effects-tabs">
+        <div class="tab-buttons">
+            <button class="tab-button active" onclick="openTab('agriculture')">Agriculture</button>
+            <button class="tab-button" onclick="openTab('water')">Water Resources</button>
+            <button class="tab-button" onclick="openTab('coastal')">Coastal Areas</button>
+            <button class="tab-button" onclick="openTab('health')">Human Health</button>
+            <button class="tab-button" onclick="openTab('biodiversity')">Biodiversity</button>
+        </div>
+
+        <div id="agriculture" class="tab-content active">
+            <h3>Impact on Agriculture</h3>
+            <div class="tab-content-inner">
+                <div class="tab-text">
+                    <p>Climate change is severely affecting Ghana's agricultural sector, which employs about 60% of the workforce:</p>
+                    <ul>
+                        <li>Reduced crop yields due to changing rainfall patterns and prolonged droughts</li>
+                        <li>Shifting growing seasons making traditional farming calendars unreliable</li>
+                        <li>Increased pest and disease outbreaks affecting crops like cocoa, Ghana's main export</li>
+                        <li>Declining soil fertility due to erosion from intense rainfall events</li>
+                    </ul>
+                    <p>Northern Ghana is particularly vulnerable, with some areas experiencing yield reductions of up to 40% for staple crops like maize and millet.</p>
+                </div>
+                <div class="tab-image">
+                    <img src="images/drought-ghana.jpg" alt="Drought in Northern Ghana">
+                    <p class="image-caption">Drought conditions in Northern Ghana affecting crops</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="water" class="tab-content">
+            <h3>Water Resources Stress</h3>
+            <div class="tab-content-inner">
+                <div class="tab-text">
+                    <p>Climate change is altering Ghana's water resources:</p>
+                    <ul>
+                        <li>Reduced water levels in major rivers like the Volta, affecting hydropower generation</li>
+                        <li>Increased frequency of both floods and droughts</li>
+                        <li>Declining groundwater recharge in northern regions</li>
+                        <li>Water quality issues due to increased runoff during heavy rains</li>
+                    </ul>
+                    <p>The Akosombo Dam, which provides most of Ghana's electricity, has experienced reduced capacity during droughts, leading to power rationing.</p>
+                </div>
+                <div class="tab-image">
+                    <img src="images/volta-lake.jpg" alt="Low water levels in Lake Volta">
+                    <p class="image-caption">Declining water levels in Lake Volta during dry seasons</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="coastal" class="tab-content">
+            <h3>Coastal Erosion and Flooding</h3>
+            <div class="tab-content-inner">
+                <div class="tab-text">
+                    <p>Ghana's coastline is particularly vulnerable to climate change:</p>
+                    <ul>
+                        <li>Sea level rise of 3.4mm per year is causing coastal erosion</li>
+                        <li>Increased frequency of storm surges flooding coastal communities</li>
+                        <li>Saltwater intrusion contaminating freshwater sources</li>
+                        <li>Threats to infrastructure like the Takoradi and Tema ports</li>
+                    </ul>
+                    <p>Some coastal communities have already been displaced, with projections suggesting up to 30% of Ghana's coastline could be lost by 2050.</p>
+                </div>
+                <div class="tab-image">
+                    <img src="images/coastal-erosion.jpg" alt="Coastal erosion in Ghana">
+                    <p class="image-caption">Coastal erosion destroying property in Keta</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="health" class="tab-content">
+            <h3>Human Health Impacts</h3>
+            <div class="tab-content-inner">
+                <div class="tab-text">
+                    <p>Climate change is affecting public health in Ghana:</p>
+                    <ul>
+                        <li>Increased incidence of malaria as mosquitoes expand their range</li>
+                        <li>Heat-related illnesses becoming more common</li>
+                        <li>Water-borne diseases like cholera during floods</li>
+                        <li>Malnutrition due to reduced food security</li>
+                        <li>Respiratory diseases from dust during dry seasons</li>
+                    </ul>
+                    <p>The Ghana Health Service reports climate change could reverse progress made in controlling infectious diseases.</p>
+                </div>
+                <div class="tab-image">
+                    <img src="images/malaria-ghana.jpg" alt="Malaria treatment in Ghana">
+                    <p class="image-caption">Increased malaria cases linked to climate change</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="biodiversity" class="tab-content">
+            <h3>Biodiversity Loss</h3>
+            <div class="tab-content-inner">
+                <div class="tab-text">
+                    <p>Ghana's rich biodiversity is under threat from climate change:</p>
+                    <ul>
+                        <li>Shifting ecosystems affecting species distribution</li>
+                        <li>Coral bleaching along coastal areas</li>
+                        <li>Declining populations of native species unable to adapt</li>
+                        <li>Increased invasive species taking advantage of changing conditions</li>
+                    </ul>
+                    <p>Protected areas like Mole National Park are seeing changes in animal behavior and vegetation patterns.</p>
+                </div>
+                <div class="tab-image">
+                    <img src="images/mole-park.jpg" alt="Mole National Park">
+                    <p class="image-caption">Changing vegetation patterns in Mole National Park</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="interactive-map">
+        <h2>Climate Change Hotspots in Ghana</h2>
+        <div class="map-container">
+            <img src="images/ghana-hotspots-map.jpg" alt="Ghana Climate Change Hotspots" usemap="#ghanaMap">
+            <map name="ghanaMap">
+                <area shape="circle" coords="150,120,30" href="#" title="Northern Region: Drought" onclick="showPopup('north')">
+                <area shape="circle" coords="220,250,25" href="#" title="Accra Coast: Flooding" onclick="showPopup('accra')">
+                <area shape="circle" coords="100,200,20" href="#" title="Volta Lake: Water Levels" onclick="showPopup('volta')">
+                <area shape="circle" coords="180,180,20" href="#" title="Cocoa Belt: Crop Yields" onclick="showPopup('cocoa')">
+            </map>
+        </div>
+        <div id="map-popup" class="popup">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <div id="popup-content"></div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Same footer as index.html -->
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
